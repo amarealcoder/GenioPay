@@ -1,0 +1,98 @@
+.aside {
+  background-color: #017189;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 32px 35px;
+}
+.asideContent {
+  display: none;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logoContainer img {
+  margin-right: 25px;
+}
+.asideWallet {
+  margin: 32px 0;
+  padding: 16px;
+  width: 246px;
+  height: 202px;
+  background: #2b899d;
+  border-radius: 8px;
+}
+.asideWalletContainer {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.asideWalletContent {
+  display: flex;
+  align-items: center;
+  width: 203px;
+  height: 45px;
+}
+.asideWalletImg {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 8px;
+  margin-right: 8px;
+  text-align: center;
+  padding: 5px;
+}
+.asideWalletBallanceContainer {
+  color: #fff;
+}
+.asideWalletAmount {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+}
+.asideWallet hr {
+  border: 0.5px solid #56a6ba;
+}
+.actionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 205.97px;
+  height: 40px;
+  /* margin: 16px 0;  */
+}
+.actionButtons button {
+  width: 99.49px;
+  height: 40px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 4px;
+}
+.btn1 {
+  background: #fda4af;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+}
+.btn2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2b899d;
+}
+
+@media (min-width: 600px) {
+  .aside {
+    width: 316px;
+  }
+  .toggleIcon {
+    display: none;
+  }
+  .asideContent {
+    display: block;
+  }
+}
